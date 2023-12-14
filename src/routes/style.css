@@ -1,0 +1,142 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+    font-family: SF Pro Text, Helvetica Neue, sans-serif;
+}
+
+nav {
+    margin: 0;
+}
+
+.button-link {
+    background: #0071e3;
+    color: var(--bg-1);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+}
+
+.button-link:hover {
+    background: var(--link-hover);
+    color: var(--bg-1);
+}
+
+.button-link:active,
+.button-link:focus {
+    background-color: #176BB5;
+}
+
+.contact-full-page {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header {
+    background-color: #0071e3;
+    border-top-right-radius: 37px;
+    border-top-left-radius: 37px;
+    color: white;
+    display: flex;
+    column-gap: 30px;
+    padding: 10px 30px 10px 30px;
+}
+
+.contact-container {
+    border-radius: 37px;
+    box-shadow: 0 11px 34px 0 rgba(0, 0, 0, .2);
+    width: 40%;
+    margin: auto;
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.contact-content {
+    max-height: 50vh;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.contact-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #0071e3;
+}
+
+.contact-info-container {
+    border-bottom: 1px solid grey;
+    margin-left: 40px;
+    width: 33%;
+    margin-bottom: 10px;
+    display: flex;
+    column-gap: 2em;
+    padding-bottom: 10px;
+}
+
+.contact-label,
+label {
+    font-size: 0.9em;
+    color: grey;
+}
+
+.contact-action-buttons {
+    /* margin: 20px auto; */
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    justify-content: space-between;
+    /* margin-right: 20px; */
+    padding: 20px 30px;
+    border-top: 1px solid grey;
+}
+
+#profile-picture {
+    width: 80px;
+    border-radius: 40px;
+    height: 80px;
+}
+
+#header-value-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#names {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input,
+textarea {
+    color: black;
+}
+
+label {
+    margin: 0;
+}
+
+.header label {
+    color: white;
+}
+
+a {
+    color: #0071e3;
+}
+
+#mail-addresses input {
+    margin-bottom: 10px;
+}
+
+form {
+    display: block;
+}
