@@ -28,7 +28,7 @@ DB_DATABASE = your_db_database_name
 Clone the project
 
 ```bash
-  git clone https:/github.com/nicotitine/silver-smok-application
+  git clone https://github.com/nicotitine/silver-smok-application
 ```
 
 Go to the project directory
